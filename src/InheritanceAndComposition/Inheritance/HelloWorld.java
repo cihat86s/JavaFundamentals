@@ -1,8 +1,5 @@
 package InheritanceAndComposition.Inheritance;
 
-import InheritanceAndComposition.Inheritance.Machine;
-import InheritanceAndComposition.Inheritance.Printer;
-
 /**
  * Created by holywar on 10/02/2017.
  */
@@ -11,6 +8,7 @@ public class HelloWorld {
         Printer myPrinter = new Printer(true, "MY PRINTER");
         myPrinter.loadPaper(5);
         myPrinter.print(6);
+        myPrinter.print(5);
 
         System.out.println("-----");
         Machine machine = new Printer(true, "MY PRINTER");

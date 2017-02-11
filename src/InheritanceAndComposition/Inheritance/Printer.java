@@ -1,8 +1,5 @@
 package InheritanceAndComposition.Inheritance;
 
-/**
- * Created by holywar on 10/02/2017.
- */
 public class Printer extends Machine{
     private String modelNumber;
     private PaperTray paperTray = new PaperTray();
